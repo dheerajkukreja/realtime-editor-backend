@@ -5,8 +5,8 @@ const app = express()
 const http = require('http')
 
 const {Server} = require('socket.io')
-const ACTIONS = require('../public/src/Actions')
 
+const ACTIONS = require('./Actions')
 
 
 
