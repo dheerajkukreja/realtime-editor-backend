@@ -1,0 +1,22 @@
+{
+  "name": "realtime-editor",
+  "version": "1.0.0",
+  "description": "Real time editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Real",
+    "time",
+    "editor"
+  ],
+  "author": "Dheeraj Kumar <dheeraj.kukreja78@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
+  }
+}
